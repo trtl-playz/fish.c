@@ -15,6 +15,10 @@ char option;
 bool gameQuit = false;
 //vars///////////////////////////////////////////
 
+void stats() {
+  printf("you have %d money\n\n", money);
+}
+
 //wow c is so picky
 //i tried to put my start func after main()
 //it just wouldn't compile
@@ -35,7 +39,7 @@ void start() {
     //shop();
   }
   else if(option == 'm'){
-    //stats();
+    stats();
   }
   else if(option == 'q'){
     printf("good bye\n");
