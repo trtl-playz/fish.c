@@ -15,6 +15,10 @@ char option;
 bool gameQuit = false;
 //vars///////////////////////////////////////////
 
+void shop() {
+  //
+}
+
 void stats() {
   printf("you have %d money\n\n", money);
 }
